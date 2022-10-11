@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css" type="text/css" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>`substitute(Filename('', 'Page Title'), '^.', '\u&', '')`</title>
+    </head>
+    <body>
+        <h1>Test Your Pokemon Knowledge! Vol. 1</h1>
+        <form action="#">
+            <fieldset>
+                <legend>Basic Info</legend>
+                <label for="first-name">What's Your First Name?</label>
+                <input type="text" name="first-name"></input>
+                <label for="last-name">What's Your Last Name</label>
+                <input type="text" name="last-name"></input>
+            </fieldset>
+            <fieldset>
+                <legend>The Quiz!</legend>
+                <label for="question-one">1) How many mainline regions exist in Pokemon?</label>
+                <select name="question-one" id="regions">
+                    <option value="Four">Four</option>
+                    <option value="Seven">Seven</option>
+                    <option value="Nine">Nine</option>
+                    <option value="Twelve">Twelve</option>    
+                </select>
+                <label for="question-two">2) Which Pokemon is Ash's main Pokemon?</label>
+                <input type="radio" name="ash-pokemon" value="Jigglypuff">
+                <label for="ash-pokemon">Jigglypuff</label>
+                <input type="radio" name="ash-pokemon" value="Lucario">
+                <label for="ash-pokemon">Lucario</label>
+                <input type="radio" name="ash-pokemon" value="Charizard">
+                <label for="ash-pokemon">Charizard</label>
+                <input type="radio" name="ash-pokemon" value="Pikachu">
+                <label for="ash-pokemon">Pikachu</label>
+                
+                <label for=question-three>3) How many types of Pokemon exist currently?</label>
+                <input type="text" name="question-three">
+                
+                <label for=question-four>4) What typing(s) does the Pokemon "Serperior" have?</label>
+                <input type="checkbox" name="choice-type" value="Electric">
+                <label for="choice-pokemon">Electric</label>
+                <input type="checkbox" name="choice-type" value="Grass">
+                <label for="choice-pokemon">Grass</label>
+                <input type="checkbox" name="choice-type" value="Poison">
+                <label for="choice-pokemon">Poison</label>
+                <input type="checkbox" name="choice-type" value="Flying">
+                <label for="choice-pokemon">Flying</label>
+                
+                <label for=question-five>5) Select the two typings listed below that Greninja has.</label>
+                <input type="checkbox" name="type-select" value="Ghost">
+                <label for="type-select">Ghost</label>
+                <input type="checkbox" name="type-select" value="Dragon">
+                <label for="type-select">Dragon</label>
+                <input type="checkbox" name="type-select" value="Dark">
+                <label for="type-select">Dark</label>
+                <input type="checkbox" name="type-select" value="Fairy">
+                <label for="type-select">Fairy</label>
+                <input type="checkbox" name="type-select" value="Steel">
+                <label for="type-select">Steel</label>
+                <input type="checkbox" name="type-select" value="Water">
+                <label for="type-select">Water</label>
+                <input type="checkbox" name="type-select" value="Fire">
+                <label for="type-select">Fire</label>
+                <input type="checkbox" name="type-select" value="Rock">
+                <label for="type-select">Rock</label>
+            </fieldset>
+            <fieldset>
+                <legend>Bonus Question</legend>
+                <label for="fav-pokemon">Talk about your favorite Pokemon!</label>
+                <textarea placeholder="Talk about it here!" rows=15 name="fav-pokemon"></textarea>
+            </fieldset>
+        </form>
+    </body>
+</html>
